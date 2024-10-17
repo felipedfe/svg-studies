@@ -7,3 +7,18 @@
 .container {
   margin: 2rem;
 }
+
+.active {
+  animation: move 3s ease infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    x: 150;
+    stroke-width: 5;
+  }
+  100% {
+    x: 500;
+    stroke-width: 20;
+  }
+}
